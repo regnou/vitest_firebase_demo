@@ -1,5 +1,8 @@
 # DEMO with FIREBASE and VITEST
 
+The purpose of this demo, is to run some unit tests, with Firestore and Vitest.
+Actually, I am looking for some help to have the tests working...
+
 To run the tests:
 `npm run test`
 
