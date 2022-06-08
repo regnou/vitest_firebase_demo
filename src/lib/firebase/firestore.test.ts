@@ -41,11 +41,11 @@ it('T1 > setup--david + vitest env variable / should add Lima ', async () => {
 // ---------------------------------------------------------
 it('T2 > setup--basic / should add Los Angeles', async () => {
 	try {
-		// TODO (2/2) -- put your firebase configuration here
+		// TODO (1/1) -- put your firebase configuration here
 		const firebaseConfig = {
-			apiKey: 'AIzaSyCIFKC20rq6kAglerGHVLQDDqFBrzjmx0M',
-			authDomain: 'tinax-app.firebaseapp.com',
-			projectId: 'tinax-app',
+			apiKey: 'PUT_YOUR_CREDENTIAL_HERE',
+			authDomain: 'PUT_YOUR_CREDENTIAL_HERE',
+			projectId: 'PUT_YOUR_CREDENTIAL_HERE',
 		}
 		const firebaseApp = initializeApp(firebaseConfig)
 		const firestore = getFirestore(firebaseApp)
