@@ -1,0 +1,43 @@
+.DS_Store
+/package
+.env
+.env.*
+!.env.example
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+/z
+/dist
+dist
+/build
+build
+/.svelte
+/.svelte-kit
+.svelte-kit
+/.yarn
+.yarn
+/examples
+node_modules
+/node_modules
+/functions
+
+/.vercel_build_output
+.vercel_build_output
+/workers-site
+static/global.css
+static/*.js
+
+svelte.config.js
+
+# Storybook files #
+###################
+storybook-static
+storybook-static/*
+
+# Jest files #
+#############################
+coverage
+coverage/*

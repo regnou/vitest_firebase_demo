@@ -1,0 +1,27 @@
+{
+	// -0
+	// -0 24 dec 2021 / vs-search LOCAL
+	// -0
+	// : "terminal.integrated.shell.osx": "/bin/zsh",
+	// : https://stackoverflow.com/questions/29971600/choose-folders-to-be-ignored-during-search-in-vs-code
+	// 0
+	"search.exclude": {},
+	"files.exclude": {},
+	// 0
+	"workbench.colorCustomizations": {
+		// "tab.inactiveBackground": "#2d2d2d",
+		// "tab.inactiveForeground": "#FFF",
+		// "tab.activeBorderTop": "#FFF",
+		"tab.activeBackground": "#5b0152",
+		// "tab.activeForeground": "#000000",
+		// "sideBar.background": "#2d2d2d",
+		"titleBar.activeBackground": "#4d0059",
+		"titleBar.activeForeground": "#9dff00",
+		"titleBar.inactiveBackground": "#9dff00",
+		"statusBar.background": "#cbf8b9"
+		// "activityBar.background": "#c42a00d9",
+	},
+	"testing.automaticallyOpenPeekView": "never"
+	// 0
+	// "explorer.sortOrder":"mixed",
+}
