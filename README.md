@@ -9,7 +9,7 @@ To run the tests:
 To run the firebase emulator:
 `npm run emu`
 
-## The issue
+## The error you can reproduce (launching the tests)
 What is happening, is that I have a Timeout. It seems that the SDK initializes, but operations such as setDoc, addDoc... does not work.  
 I want my tests to be working locally.  
 I have created 3 tests, with 3 differents initilizations methods :
