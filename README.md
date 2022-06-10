@@ -9,7 +9,7 @@ To run the tests:
 To run the firebase emulator:
 `npm run emu`
 
-## The error you can reproduce (launching the tests)
+## 1) The error you can reproduce (launching the tests)
 What is happening, is that I have a Timeout. It seems that the SDK initializes, but operations such as setDoc, addDoc... does not work.  
 I want my tests to be working locally.  
 I have created 3 tests, with 3 differents initilizations methods :
@@ -17,12 +17,12 @@ I have created 3 tests, with 3 differents initilizations methods :
 2. init the SDK_CLIENT_FIREBASE via hardcoding the firebase credentials.  
 3. using the SDK_CLIENT_FIREBASE via Firebase/TestEnvironement.  
 
-## TODO
+## 2) TODO
 You MAY have yo create some file to setup the project:
 I have put 2 commits named: PUT_YOUR_CREDENTIAL_HERE
 1. update file: .firebaserc
 2. rename file: .env-TODO -> .env
 
-## Related Issues:
+## 3) Related Issues:
 1. https://stackoverflow.com/questions/72539977/error-when-using-firestore-and-vitest-locally-the-test-timeouts-and-no-data-is
 2. https://github.com/jmagrippis/with-svelte/issues/31#issuecomment-1150282611
