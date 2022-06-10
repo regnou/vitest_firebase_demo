@@ -19,13 +19,13 @@ import {
 	assertSucceeds,
 } from '@firebase/rules-unit-testing'
 // ---------------------------------------------------------
-it('T0 > basic test to show that vitest is working', async () => {
-	try {
-		expect(null).toBeNull()
-	} catch (e) {
-		console.log(e)
-	}
-})
+// it('T0 > basic test to show that vitest is working', async () => {
+// 	try {
+// 		expect(null).toBeNull()
+// 	} catch (e) {
+// 		console.log(e)
+// 	}
+// })
 // ---------------------------------------------------------
 it('T1 > setup--david + vitest env variable / should add Lima ', async () => {
 	try {
