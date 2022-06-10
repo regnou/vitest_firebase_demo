@@ -66,7 +66,7 @@ it('T3 > setup--rules-unit-testing / should add Paris', async () => {
 	try {
 		setLogLevel('error')
 		let testEnv = await initializeTestEnvironment({
-			projectId: 'tinax-app',
+			projectId: 'PUT_YOUR_CREDENTIAL_HERE',
 			firestore: {host: 'localhost', port: 8080},
 		})
 		await testEnv.withSecurityRulesDisabled(async (context) => {
