@@ -10,11 +10,12 @@ To run the firebase emulator:
 `npm run emu`
 
 ## The issue
-What is happening, is that I have a Timeout. It seems that the SDK initializes, but operations such as setDoc, addDoc... does not work. I want my tests to be working locally. I have created 3 tests, with 3 differents initilizations methods :
-
-init the SDK_CLIENT_FIREBASE via VITEST_ENV_VARIABLE
-init the SDK_CLIENT_FIREBASE via hardcoding the firebase credentials
-using the SDK_CLIENT_FIREBASE via Firebase/TestEnvironement
+What is happening, is that I have a Timeout. It seems that the SDK initializes, but operations such as setDoc, addDoc... does not work.  
+I want my tests to be working locally.  
+I have created 3 tests, with 3 differents initilizations methods :
+1. init the SDK_CLIENT_FIREBASE via VITEST_ENV_VARIABLE.  
+2. init the SDK_CLIENT_FIREBASE via hardcoding the firebase credentials.  
+3. using the SDK_CLIENT_FIREBASE via Firebase/TestEnvironement.  
 
 ## TODO
 You MAY have yo create some file to setup the project:
